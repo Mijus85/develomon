@@ -1,0 +1,11 @@
+name: speaker_app
+recipe: drupal10
+config:
+  webroot: web
+  php: 8.1
+  database: mysql
+services:
+  myservice:
+    type: phpmyadmin
+
+
